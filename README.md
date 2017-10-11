@@ -13,7 +13,7 @@ Builder
   
 Observable
 
-  O observable foi utilizado para observar o forno, e notificar se a sua temperatura está correta.
+  O observable foi utilizado para observar o forno, e notificar se a sua temperatura está correta(180).
   
 Singleton
 
