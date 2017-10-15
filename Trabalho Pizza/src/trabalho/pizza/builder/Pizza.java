@@ -1,7 +1,5 @@
 package trabalho.pizza.builder;
 
-import javafx.scene.input.KeyCode;
-
 public class Pizza {
     
     
@@ -18,7 +16,7 @@ public class Pizza {
         System.out.println("Pizza pequena com:");
     }
     public void setTamanhoM(boolean tamanhoM) {
-        System.out.println("Pizza médiacom:");
+        System.out.println("Pizza média com:");
     }
     public void setTamanhoG(boolean tamanhoG) {
         System.out.println("Pizza grande com:");
@@ -39,8 +37,5 @@ public class Pizza {
         System.out.println("oregano");
         }
 
-    void setTamanho(KeyCode keyCode, KeyCode keyCode0, KeyCode keyCode1) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
     
 }
