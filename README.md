@@ -5,16 +5,16 @@ Para implementar este trabalho utilizei os seguintes patterns: Template, Builder
 
 Template
 
-  Utilizei o template pois a criação da pizza possui uma sequência definida e uma escolha final a ser feita.
+  O Template foi utilizado para informar  uma sequencia de passos bem definida. Onde foi feita a escolha do tamanho da pizza, posteriormente os seus ingredientes, e uma escolha final entre comer no local ou levar para casa.
   
 Builder
 
-  Fiz o uso do builder para transferir uma certa complexidade para o mesmo, e facilitar a seleção dos ingredientes da pizza.
+ O Builder foi utilizado para transferir uma certa complexidade na escolha dos ingredientes para o mesmo, e facilitar a seleção dos ingredientes da pizza.
   
 Observable
 
-  O observable foi utilizado para observar o forno, e notificar se a sua temperatura está correta(180).
+  O Observable foi utilizado para observar o forno, e notificar se a sua temperatura está correta(180).
   
 Singleton
 
-  Utilizei o singleton para permitir somente a criação de uma instancia de Forno por vez.
+  Utilizei o Singleton para permitir somente a criação de uma instancia de Forno por vez.
